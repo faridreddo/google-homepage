@@ -60,14 +60,11 @@ header li{
 
 footer {
     display: flex;
+    justify-content: space-between;
 }
 
 footer li{
     list-style: none;
     display: inline;
     padding: 1px 5px;
-}
-
-#location {
-    
 }
