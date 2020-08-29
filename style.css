@@ -16,9 +16,10 @@ body{
 /* Header */
 
 header {
+    background-color: lemonchiffon;
     font-size: 100%;
     position: fixed;
-    max-height: 40px;
+    max-height: 80px;
     width: 100%;
     top: 0;
     left: 0;
@@ -27,7 +28,7 @@ header {
 header li{
     list-style: none;
     display: inline;
-    padding: 1px 5px;
+    padding: 5px;
 }
 
 #profile-photo {
@@ -41,6 +42,12 @@ header li{
     display: flex;
     justify-content: flex-end;
 }
+
+header a:link {
+    color: red;
+    text-decoration: none;
+}
+
 /* Main */
 
 #searchform {
@@ -59,8 +66,14 @@ header li{
 /* Footer */
 
 footer {
+    background-color: blanchedalmond;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    font-size: 100%;
+    position: fixed;
+    width: 100%;
+    margin-top: 60px;
 }
 
 footer li{
@@ -68,3 +81,4 @@ footer li{
     display: inline;
     padding: 1px 5px;
 }
+
