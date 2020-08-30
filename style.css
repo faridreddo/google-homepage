@@ -19,7 +19,7 @@ header {
     background-color: lemonchiffon;
     font-size: 100%;
     position: fixed;
-    max-height: 80px;
+    min-height: 3vh;
     width: 100%;
     top: 0;
     left: 0;
@@ -33,9 +33,10 @@ header li{
 
 #profile-photo {
     width: 100%;
-    height 100%;
-    max-height: 40px;
-    max-width: 50px;
+    height: 100%;
+    max-height: 5vh;
+    max-width: 5vh;
+    vertical-align: middle;
 }
 
 #navbar {
@@ -44,8 +45,13 @@ header li{
 }
 
 header a:link {
-    color: red;
+    color: grey;
     text-decoration: none;
+}
+
+header a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 /* Main */
@@ -56,11 +62,23 @@ header a:link {
     display: flex;
     align-items: center;
     min-height: 70vh;
+    background-color: navajowhite;
     
 }
 
 #name {
     margin: 10px 50px;
+}
+
+#country {
+    background-color: pink;
+    font-size: 100%;
+    min-height: 5vh;
+    max-width: 99%;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 /* Footer */
@@ -72,8 +90,9 @@ footer {
     justify-content: space-between;
     font-size: 100%;
     position: fixed;
+    min-height: 10vh;
     width: 100%;
-    margin-top: 60px;
+    
 }
 
 footer li{
@@ -82,3 +101,10 @@ footer li{
     padding: 1px 5px;
 }
 
+#about {
+    margin-left: -2em;
+}
+
+#settings {
+    margin-right: 2em;
+}
